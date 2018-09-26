@@ -129,18 +129,16 @@
 .weather-temp {
   display: table;
   list-style: none;
-  position: absolute;
-  left: 240px;
-  top: 496px;
-
+  position: relative;
+  left: 50px;
 }
 
 .weather-number{
-  display: inline-block;
-  position: absolute;
-  right: 238px;
-  top: 498px;
+  bottom: 4%;
+  display: table;
   list-style: none;
+  position: absolute;
+  right: 35%;
 }
 
 .temp {
