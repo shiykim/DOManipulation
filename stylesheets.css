@@ -1,0 +1,158 @@
+.header {
+  background-color: #32435a;
+  height: 120px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.header > h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+  font-weight: 300;
+  color: white;
+}
+
+.self-links > a {
+  padding-top: 140px;
+  min-height: 50px;
+  min-width: 50px;
+}
+
+.instructions {
+  position: absolute;
+  top: 150px;
+  right: 265px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.dance-taco {
+  position:fixed;
+  bottom: -25px;
+  right: 2%;
+  height: 150px;
+  width: 150px;
+  z-index: 1;
+}
+
+.widgets {
+  padding-top: 350px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.widgets > div {
+  height: 350px;
+  width: 450px;
+  padding: 10px;
+  box-shadow: 2px 2px 10px #ccc;
+  overflow-x: hidden;
+  margin: 20px;
+  position: absolute;
+  border-radius: 5px;
+}
+
+.widgets > div > ul > li {
+  list-style: none;
+}
+
+.taco-base {
+  background-color: lightblue;
+  right: 15px;
+}
+
+.taco-condiment {
+  background-color: indianred;
+  right: 230px;
+}
+
+.taco-season {
+  background-color: darkseagreen;
+  right: 120px;
+}
+
+.first {
+  z-index: 1;
+}
+
+.shell {
+  height: 450px;
+  width: 450px;
+  top: 155px;
+  left: 50px;
+  position: absolute;
+  z-index: 0;
+}
+
+.bean {
+  height: 150px;
+  width: 308px;
+  position: absolute;
+  top: 300px;
+  left: 132px;
+  z-index: 0.3;
+  left: 80px
+}
+
+.cheese {
+  height: 175px;
+  width: 308px;
+  position: absolute;
+  top: 200px;
+  left: 120px;
+  z-index: 0.5;
+}
+
+.pork {
+  min-height: 185px;
+  width: 250px;
+  position: absolute;
+  top: 270px;
+  left: 250px;
+}
+
+.topping-one {
+  height: 160px;
+  width: 300px;
+  position: absolute;
+  top: 363px;
+  left: 185px;
+}
+
+.topping-two {
+  height: 160px;
+  width: 300px;
+  position: absolute;
+  top: 417px;
+  left: 94px;
+}
+
+.takeout {
+  position: absolute;
+  bottom: 5px;
+  left: 170px;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.takeout > a > img {
+  width: 50px;
+  height: 50px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.takeout > a {
+  text-decoration: none;
+}
