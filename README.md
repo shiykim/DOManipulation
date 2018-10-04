@@ -5,7 +5,7 @@ DOManipulation is a recreation of the most of the important functionalities of t
 DOManipulation can be used to send AJAX requests, handle events, and manipulate the DOM.
 
 Check out the live demo [here](https://claireskim.com/DOManipulation/)!
-![build-a-taco](assets/images/build-taco.png)
+![build-a-taco](assets/images/build_taco.png)
 
 ## Features
 * `empty()`
