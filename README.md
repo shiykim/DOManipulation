@@ -22,7 +22,7 @@ Check out the live demo [here](https://claireskim.com/DOManipulation/)!
 ## AJAX Requests
 One of the main features of DOManipulation is the ability to make AJAX requests, and have it return a promise.
 
-```
+``` javascript
 $l.ajax = (arg) => {
   let recommended = {
     method: "GET",
@@ -48,7 +48,7 @@ $l.ajax = (arg) => {
 ## Live Demo
 [Build-A-Taco](https://claireskim.com/DOManipulation/), a website that provides different taco recipes, was created using DOManipulation. A random taco recipe is obtained by making an AJAX request to an API.
 
-```
+``` javascript
 function base() {
   let base = $l('.base').htmlArray[0];
   $l.ajax({
@@ -62,7 +62,7 @@ function base() {
 
 The z-index of the note cards are toggled depending on which card is currently selected. By using DOManipulation to add and remove classes that will set the z-index accordingly, I was able to get the desired effect of the note cards flipping. The dynamically changing images are also triggered by the on click of the note cards, which in turn changes the source of the image to a randomly generated one.
 
-```
+``` javascript
 function cheeseImage() {
   let cheese = $l('.cheese').htmlArray[0];
   let rand = Math.floor((Math.random() * 2));
