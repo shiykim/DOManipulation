@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
   text-align: center;
-  z-index: 10;
+  z-index: 5;
 }
 
 .header > h1 {
@@ -16,10 +16,16 @@
   color: white;
 }
 
-.self-links > a {
-  padding-top: 140px;
-  min-height: 50px;
-  min-width: 50px;
+.self-links {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+}
+
+.self-links > a > img {
+  padding-left: 10px;
+  width: auto;
+  height: 30px;
 }
 
 .instructions {
