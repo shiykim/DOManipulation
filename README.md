@@ -40,7 +40,6 @@ $l.ajax = (arg) => {
     xhr.open(merged.method, merged.url, true);
     xhr.onload = () => resolve(JSON.parse(xhr.response));
       xhr.send(JSON.stringify(merged.data));
-    // console.log(xhr);
   });
 };
 ```
